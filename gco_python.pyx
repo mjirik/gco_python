@@ -192,4 +192,5 @@ def cut_from_graph(np.ndarray[np.int32_t, ndim=2, mode='c'] edges,
     cdef int * result_ptr = <int*>result.data
     for i in xrange(n_vertices):
         result_ptr[i] = gc.whatLabel(i)
+    del gc
     return result
