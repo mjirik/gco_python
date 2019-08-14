@@ -103,7 +103,7 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # http://packaging.python.org/en/latest/tutorial.html#version
-    version='0.0.20',
+    version='0.0.21',
     url='https://github.com/mjirik/gco_python',
     author='Andreas Mueller',
     author_email='',
